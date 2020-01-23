@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.login-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.form {
+  width: 400px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgb(39, 53, 53);
+  background-color: #165d66;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: rgb(211, 127, 127);
+  font-weight: lighter;
+  font-size: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: rgb(184, 148, 148);
+  align-self: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.field {
+  width: 100%;
+}
+
+.address {
+  width: 100%;
+  height: "400px";
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  align-self: center;
+}
+h4 {
+  text-align: right;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 10px 10px 10px;
+}
+.Icon {
+  margin: 0.2rem;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.button {
+  background: #3d5c85;
+  border: 2px solid #aaa;
+  margin: 20px;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.4em;
+  box-sizing: border-box;
+  transition: 0.3s;
+  text-align: center;
+  text-justify: center;
+  border-radius: 30px;
+  border: 2px;
+  width: 240px;
+  height: 45px;
+}
